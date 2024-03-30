@@ -1,0 +1,285 @@
+*{
+    padding: 0;
+    margin: 0;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    font-family: "Nunito Sans", sans-serif;
+    font-weight: bolder;
+    color:rgb(244, 246, 242);
+    text-decoration: none;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+header{
+    padding: 40px;
+    height: 6em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #4E31AA;
+    width: 80%;
+    margin: auto;
+    font-size: 3em;
+}
+
+header img{
+    width: 2em;
+}
+main{
+    background: rgb(185, 226, 250);
+    width: 80%;
+    height: calc(100vh - 16em);
+    margin:auto;
+    display: flex;
+    flex-direction: row;
+    /* justify-content:center ; */
+    /* align-items: center; */
+  
+    
+    
+}
+
+.contenido{
+    background-color: white;
+    color:white;
+    height: 100%;
+    width: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+    .contenido .card{
+        background:#4E31AA;/*Color Principal*/
+        height: 80%;
+        width: 70%;
+        border-radius: 15px;
+        margin-top: 0;
+        padding: 5px;
+    }
+.contenido .card img{
+    width: 50%;
+    border-radius: 15px;
+}
+
+.card h2{
+    margin-top: 3%;
+    padding: 5px;
+    color: snow;
+    font-size: 2.5em;
+}
+
+.card p{
+    padding: 5px;
+    margin: 10px;
+    color: aliceblue;
+}
+
+.card a{
+    color: white;
+    text-decoration: underline;
+}
+.secundario{
+    background-color: #3795BD;
+    height: 100%;
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.secundario h3{
+ margin-top: 10%;   
+ color: snow;
+ font-size: 2em;
+}
+.secundario p{
+    background: #4E31AA;
+    color:snow;
+    width: 80%;
+    margin: 10% 30px;    
+    text-align: center;
+}
+
+
+.secundario .card2{
+    background: #4E31AA;
+    height: 80%;
+    width: 70%;
+    border-radius: 15px;
+
+}
+
+.card2 a{
+    color: white;
+    text-decoration: underline;
+}
+nav ul{
+    width: 80%;
+    height: 4em;
+    margin: auto;
+    /* border-radius: 0px; */
+    list-style: none;
+    background:#2F58CD;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: medium;
+    
+    
+}
+
+
+nav ul li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+
+
+}
+
+li a{
+    /* height: 100%; */
+    padding: 50x;
+    width: 150px;
+    color:snow;
+    font-size: 1em;
+    
+}
+
+li a:hover{
+    color: white;
+    font-size: 1.25em;
+    /* font-size: ; */
+   
+}
+
+footer{
+    background: #4E31AA;
+    height: 6em;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+
+footer p{
+    color:snow;
+    font-size: 0.8em;
+    margin-left: 20px;
+}
+
+footer p strong{
+    color:snow;
+}
+
+footer .redes{
+    width: 55%;
+    height: 100%;
+    padding: 0px;
+    
+    background:#4E31AA;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+footer .redes h4{
+    color: snow;
+}
+
+footer .redes li{
+    padding: 10px;
+    margin-left: 0;
+    margin-right: 5px;
+    color:snow;
+    background:#4E31AA;
+}
+
+
+
+footer .redes li i{
+    color:snow;
+    width: 32px;
+    font-size: 32px;
+    padding: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+footer .redes li i:hover{
+    color:white;
+    width: 32px;
+    font-size: 42px;
+}
+
+footer .contactame{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    background: #4E31AA;
+    width: 80%;
+    height: 100%;
+     
+}
+
+footer .contactame li{
+    
+    color: snow;
+    font-size: 20px;
+    background: #4E31AA;
+    width: 100%;
+    padding:10px;
+    display: flex;
+
+    
+}
+
+footer .contactame li i{
+    
+    color: snow;
+    margin-right: 15px;
+   
+    
+}
+
+footer .contactame li  :hover{
+    
+    color: white;
+    font-size: 28px;
+   
+}
+
+
+
+footer .contactame ul  {
+    list-style: none;
+    background: #4E31AA;
+    height: 100%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 24px;
+    margin-bottom: 0px;
+    
+}
+
+footer .contactame h4{
+    color:snow;
+    margin: 10px;
+
+}
+

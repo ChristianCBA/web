@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style3.css">
+    <title>Mi Formulario Funcional</title>
+</head>
+<body>
+    
+    <div class="contenedor">
+        <h3>Consultas & Turnos</h3>
+       
+        <form action="https://formsubmit.co/italtronic@gmail.com" method="POST" >
+         
+            <label for="nombre">Nombre</label>
+            <input class="control" type="text" name="nombre" id="nombre"  required>
+            <label for="apellido">Apellido</label>
+            <input class="control" type="text" name="apellido" id="apellido" required>
+            <label for="email">Email</label>
+            <input class="control" type="email" name="email" id="email"  required>
+            <label for="asunto">Asunto</label>
+            <input class="control" type="text" name="asunto" id="asunto" required >
+            <label for="mensaje">Mensaje</label>
+            <textarea class="controlArea" name="mensaje" id="mensaje" cols="30" rows="5" placeholder="Escriba su consulta..." required></textarea>
+            <p>Acepto los <a href="">Términos y Condiciones</a></p>
+            <input class="boton"type="submit" value="Enviar"> 
+
+             <!-- <input type="hidden" name="_next" value="http://localhost:5500">    -->
+             <!-- <input type="hidden" name="_captcha" value="false">             -->
+         </form>
+    </div>
+
+</body>
+</html> 
+
+
